@@ -1,0 +1,9 @@
+.main-layout {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.main-layout__container {
+    padding-top: 100px;
+    height: 100%;
+}

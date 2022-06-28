@@ -1,0 +1,8 @@
+.page__wrapper {
+    padding: 0 160px;
+    height: auto;
+}
+.page__products-list {
+    max-height: 700px;
+    overflow: auto;
+}

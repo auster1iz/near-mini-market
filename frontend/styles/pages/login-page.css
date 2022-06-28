@@ -1,0 +1,16 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+}
+.login__container {
+    padding: 40px;
+}
+.login__container_text {
+    font-size: 40px;
+}
+.login__container_text span {
+    font-weight: 600;
+}
+.login__container_button {
+    margin-top: 30px;
+}

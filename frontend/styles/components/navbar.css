@@ -1,0 +1,21 @@
+.navbar {
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    padding: 30px 60px;
+    border: 1px solid black;
+}
+.navbar__logo {
+    font-weight: bold;
+    font-size: 30px;
+}
+.navbar__items {
+    font-size: 20px;
+}
+.navbar__items_nav-button{
+    margin-right: 20px;
+}
+.navbar__items-username {
+    font-weight: 600;
+    margin-left: 40px;
+}

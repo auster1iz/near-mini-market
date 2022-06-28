@@ -1,0 +1,22 @@
+.modal__container {
+     position: fixed;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     background-color: rgba(0, 0, 0, 0.8);
+     z-index: 400;
+ }
+.modal__window {
+    position: relative;
+    background-color: white;
+    padding: 48px 40px;
+    border-radius: 4px;
+}
+.modal__window_close-icon {
+     position: absolute;
+     font-size: 1.2rem;
+     top: 6px;
+     right: 16px;
+     cursor: pointer;
+}
