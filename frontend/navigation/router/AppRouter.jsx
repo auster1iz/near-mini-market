@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
-import {privateRoutes, publicRoutes, routes} from "./constants/routes"
+import {privateRoutes, publicRoutes, routes} from "../constants/routes"
 import PublicRoute from "./PublicRoute"
 import PrivateRoute from "./PrivateRoute"
 import MainLayout from "../../components/layouts/MainLayout";

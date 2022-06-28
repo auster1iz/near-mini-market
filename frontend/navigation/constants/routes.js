@@ -1,6 +1,6 @@
-import LoginPage from "../../../components/pages/LoginPage"
-import MarketPlacePage from "../../../components/pages/MarketPlacePage"
-import UserAccountPage from "../../../components/pages/UserAccountPage"
+import LoginPage from "../../components/pages/LoginPage"
+import MarketPlacePage from "../../components/pages/MarketPlacePage"
+import UserAccountPage from "../../components/pages/UserAccountPage"
 
 export const routes = {
     private: {

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/components/navbar.css';
 import {useLocation, useNavigate} from "react-router-dom";
-import {routes} from "../../navigation/router/constants/routes";
+import {routes} from "../../navigation/constants/routes";
 import {logout} from "../../utils/near/utils";
 import {LOGOUT, MARKET_PLACE, MY_ACCOUNT, MINI_MARKET} from "../../constants";
 
@@ -16,7 +16,7 @@ const Navbar = () => {
         navigate(routes.private.account)
     }
 
-    const navButtonONClick = location.pathname === routes.private.account ? navigateToMarketPlace : navigateToAccount;
+    const navButtonOnClick = location.pathname === routes.private.account ? navigateToMarketPlace : navigateToAccount;
     const navButtonText = location.pathname === routes.private.account ? MARKET_PLACE : MY_ACCOUNT;
 
     const username = window.walletConnection._authData.accountId
@@ -26,7 +26,7 @@ const Navbar = () => {
             <div className="navbar__logo">{MINI_MARKET}</div>
             <div className="navbar__items flex items-center">
                 <div className="navbar__items_nav-button">
-                    <button className="button" onClick={navButtonONClick}>
+                    <button className="button" onClick={navButtonOnClick}>
                         {navButtonText}
                     </button>
                 </div>
